@@ -54,7 +54,7 @@ button, .btn {
   padding: .375em 2em .42em;
 }
 
-.btnpad {
+.btnpadding {
   border-color: #6e8c62;
   color: #fff;
 }
@@ -73,7 +73,7 @@ textarea {
 
 @media only screen and (min-width: 38em) {
 
-  .dob {
+  .dobdiv {
     padding-bottom: 2.8rem;
   }
 
