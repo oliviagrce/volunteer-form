@@ -2,51 +2,79 @@ html {
   font-family: "Noto Serif", serif;
 }
 
-header {
+header, footer {
   background-color: #70ad55;
   color: #fff;
 }
 
+input, option {
+  border-color: #6e8c62;
+}
+
+[type="radio"] + label {
+  border-color: #6e8c62;
+}
+
+input[type="checkbox"] + label::before {
+  border-color: #6e8c62;
+}
+
+p {
+  margin: 0;
+  display: inline-block;
+}
+
 fieldset {
-  border: 0;
+  border: none;
+}
+
+span {
+  color: #70ad55;
+}
+
+label {
+  padding-bottom: .2rem;
+  margin: 0;
+  display: block;
+}
+
+input {
+  margin: 0;
+}
+
+hr {
+  border: .5px solid #6e8c62;
+}
+
+button, .btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+  padding: .375em 2em .42em;
+}
+
+.btnpad {
+  border-color: #6e8c62;
+  color: #fff;
+}
+
+.contact {
+  background-color: #f2f2f2;
+}
+
+.container {
+  border-top: 1px solid #70ad55;
+}
+
+textarea {
+  height: 10rem;
 }
 
 @media only screen and (min-width: 38em) {
 
-  .space-right {
-    padding-right: .5em;
+  .dob {
+    padding-bottom: 2.8rem;
   }
 
-  .space-left {
-    padding-left: .5em;
-  }
-
-}
-
-.flag-optional {
-  color: #70ad55;
-}
-
-hr {
-  border-color: #70ad55;
-  opacity: .3;
-}
-
-textarea {
-  min-height: 10em;
-}
-
-.btn {
-  background-color: #6e8c62;
-  border-color: #6e8c62;
-}
-
-input,
-select,
-textarea {
-  border-color: #6e8c62;
-}
-
-footer {
-  background-color: #70ad55;
 }
